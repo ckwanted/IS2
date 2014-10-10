@@ -5,7 +5,6 @@ import java.util.Map;
 
 public class Frecuencia {
    
-   
    public static void main(String[] args) {
       
       int[] vec = {5,1,2,3,5,2,3,5,4,3,4,5,4,4,5};
