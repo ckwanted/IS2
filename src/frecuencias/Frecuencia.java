@@ -5,10 +5,6 @@ import java.util.Map;
 
 public class Frecuencia {
    
-   public static Integer añadirValor(Map<Integer,Integer> map, Integer clave) {
-      if(map.containsKey(clave)) return map.get(clave) + 1;
-      else return 1;
-   }
    
    public static void main(String[] args) {
       
@@ -25,4 +21,8 @@ public class Frecuencia {
       
    }
    
+   public static Integer añadirValor(Map<Integer,Integer> map, Integer clave) {
+      if(map.containsKey(clave)) return map.get(clave) + 1;
+      else return 1;
+   }
 }
